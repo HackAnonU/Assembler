@@ -1,6 +1,7 @@
 ### What is this
 - My old assembly code
 - Here is the first code I wrote to understand how to write in Asm
+- This is training and junk code, I plan to write normal things for UEFI
 ### Build and launch
 1. `sudo apt install fasm&&sudo apt install qemu-system-x86 qemu-utils`
 2. `fasm name.asm name.bin`
