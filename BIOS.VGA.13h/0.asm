@@ -10,7 +10,7 @@ xor ax,ax
 rep stosw
 mov di,100*320+160
 mov al,40
-mov [es:di],al
+mov[es:di],al
 jmp $
 times 510-($-$$)db 0
 dw 0xAA55
